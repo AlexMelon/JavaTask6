@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Showing Default Values</title>
+</head>
+<body>
+    <h1>Showing Default Values</h1>
+    <form action="submimt.php" method="POST">
+        <!-- Text Input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="Alex Xavier Rajan J">
+        <br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="axrajan@gmail.com">
+        <br><br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="password">
+        <br><br>
+
+        <!-- Number Input -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" value="32">
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkbox -->
+        <label for="facebook">
+            <input type="checkbox" id="facebook" name="facebook" value="yes" checked>
+            Are you in Facebook?
+        </label>
+        <br><br>
+
+        <!-- Dropdown (Select) -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="us">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="in" selected>India</option>
+        </select>
+        <br><br>
+
+        <!-- Textarea -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="3">Tamabaram, Chennai - 600091</textarea>
+        <br><br>
+
+        <!-- Date Input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" value="1992-07-01">
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
